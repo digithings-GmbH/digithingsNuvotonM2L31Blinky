@@ -1,0 +1,3 @@
+#define RCC_SYSCLOCK_48000000 48000000
+
+void 	M2L31ClkInit	(void);
