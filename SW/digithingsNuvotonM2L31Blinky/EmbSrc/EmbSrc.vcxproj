@@ -72,13 +72,20 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <OutDir>..\WinSim\bin\x64\Debug\net6.0-windows</OutDir>
+    <IntDir>..\WinSim\bin\x64</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
     <BuildAsX>false</BuildAsX>
     <OutDir>..\WinSim\bin\ARM64\Debug\net6.0-windows</OutDir>
+    <IntDir>..\WinSim\bin\ARM64</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">
     <OutDir>..\WinSim\bin\ARM64\Debug\net6.0-windows</OutDir>
+    <IntDir>..\WinSim\bin\ARM64</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>..\WinSim\bin\x64\Debug\net6.0-windows</OutDir>
+    <IntDir>..\WinSim\bin\x64</IntDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
     <ClCompile>
